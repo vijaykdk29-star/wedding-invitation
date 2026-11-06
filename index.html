@@ -1,0 +1,213 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- First Cover Page -->
+    <div class="cover" id="cover">
+
+        <span class="corner-flower top-right">❀</span>
+        <span class="corner-flower bottom-left">❀</span>
+
+        <div class="mandap-decoration">
+            🪷
+            <div class="mandap-title">ಶುಭ ವಿವಾಹ</div>
+            🪔
+        </div>
+
+        <h2>॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥</h2>
+        <p>With the blessings of our families</p>
+
+        <h1>
+            Vijaykumar
+            <span>&</span>
+            Usharani
+        </h1>
+
+        <h2>Wedding Invitation</h2>
+        <p>You are cordially invited to celebrate our special day.</p>
+
+        <button class="open-btn" onclick="openInvitation()">
+            💌 Open Invitation
+        </button>
+
+    </div>
+
+    <!-- Full Wedding Invitation -->
+    <div class="invitation" id="invitation">
+
+        <span class="corner-flower top-right">❀</span>
+        <span class="corner-flower bottom-left">❀</span>
+
+        <div class="mandap-decoration">
+            🪷
+            <div class="mandap-title">ಶುಭ ವಿವಾಹ</div>
+            🪔
+        </div>
+
+        <h2>॥ ಶ್ರೀ ಗಣೇಶಾಯ ನಮಃ ॥</h2>
+        <p>With the blessings of our families</p>
+
+        <h1>
+            Vijaykumar
+            <span>&</span>
+            Usharani
+        </h1>
+
+        <h2>Wedding Invitation</h2>
+
+        <p>
+            We joyfully invite you to celebrate
+            our wedding ceremony.
+        </p>
+
+        <hr>
+
+        <!-- Wedding Countdown -->
+        <div class="countdown-section">
+
+            <h2>💍 Countdown to Our Wedding</h2>
+
+            <div class="countdown">
+
+                <div class="countdown-box">
+                    <h3 id="days">00</h3>
+                    <p>Days</p>
+                </div>
+
+                <div class="countdown-box">
+                    <h3 id="hours">00</h3>
+                    <p>Hours</p>
+                </div>
+
+                <div class="countdown-box">
+                    <h3 id="minutes">00</h3>
+                    <p>Minutes</p>
+                </div>
+
+                <div class="countdown-box">
+                    <h3 id="seconds">00</h3>
+                    <p>Seconds</p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- Wedding Events -->
+        <h2>Wedding Events</h2>
+
+        <div class="event reception-card">
+            <div class="event-icon">🌸</div>
+            <h3>Reception</h3>
+            <div class="event-divider">✦ ❀ ✦</div>
+            <p>30 January</p>
+            <p>🕖 07:00 PM</p>
+        </div>
+
+        <div class="event wedding-card">
+            <div class="event-icon">🪷</div>
+            <h3>Wedding Ceremony</h3>
+            <div class="event-divider">✦ ❀ ✦</div>
+            <p>31 January</p>
+            <p>🕢 07:30 AM</p>
+        </div>
+
+        <!-- Meet The Couple -->
+        <div class="couple-section">
+
+            <h2>Meet The Couple</h2>
+
+            <div class="name-card">
+                <h3>🤵 The Groom</h3>
+                <h2>Vijaykumar</h2>
+            </div>
+
+            <div class="heart">❤️</div>
+
+            <div class="name-card">
+                <h3>👰 The Bride</h3>
+                <h2>Usharani</h2>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <!-- Wedding Venue -->
+        <h2>📍 Wedding Venue</h2>
+
+        <div class="venue-card">
+
+            <h3>🏛️ Smt B Tulasi Narayana Rao Kalyana Mantapa</h3>
+
+            <p>
+                We warmly welcome you to celebrate
+                our special day with us.
+            </p>
+
+            <a
+                href="https://www.google.com/maps/place/Smt+B+Tulasi+Narayana+Rao+Kalyana+Mantapa/@13.9369344,76.609325,17z/data=!4m6!3m5!1s0x3bb087bde42fc369:0x6dfc463f2ccba4d7!8m2!3d13.9369344!4d76.6118999!16s%2Fg%2F11bbyjkr9g?entry=ttu&g_ep=EgoyMDI2MTEwMy4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                class="location-btn">
+
+                📍 View Location & Get Directions
+
+            </a>
+
+        </div>
+
+        <hr>
+
+        <!-- Grand Thank You Section -->
+        <div class="thankyou-section">
+
+            <div class="thankyou-decoration">❀ ✦ ❀</div>
+
+            <h2>Thank You ❤️</h2>
+
+            <p>
+                Your presence will make our celebration
+                more beautiful and memorable.
+            </p>
+
+            <h3>With Love</h3>
+
+            <h2>Vijaykumar & Usharani</h2>
+
+            <div class="thankyou-decoration">🪷 🪔 🪷</div>
+
+        </div>
+
+        <!-- WhatsApp Share Button -->
+        <div class="share-section">
+
+            <h2>💌 Share Our Invitation</h2>
+
+            <button class="share-btn" onclick="shareInvitation()">
+                💚 Share on WhatsApp
+            </button>
+
+        </div>
+
+        <!-- Back To Top Button -->
+        <button id="topBtn" onclick="scrollToTop()">
+            ⬆ Back to Top
+        </button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
