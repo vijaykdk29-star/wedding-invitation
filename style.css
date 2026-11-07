@@ -1254,3 +1254,14 @@ body {
         font-size: 23px;
     }
 }
+/* Keep Couple Names in One Line on Mobile */
+
+@media (max-width: 600px) {
+
+    .cover h1,
+    .invitation h1 {
+        font-size: 21px;
+        white-space: nowrap;
+        letter-spacing: 0;
+    }
+}
