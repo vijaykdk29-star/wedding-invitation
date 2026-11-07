@@ -58,7 +58,7 @@ function startFlowerRain() {
 
 // Start Sparkles when website opens
 startFlowerRain();
-
+console.log("Sparkles started!");
 
 // Back To Top Function
 function scrollToTop() {
