@@ -1240,3 +1240,17 @@ body {
         opacity: 0;
     }
 }
+/* Couple Names - Smaller Size */
+
+.cover h1,
+.invitation h1 {
+    font-size: 27px;
+}
+
+/* Mobile Screen */
+@media (max-width: 600px) {
+    .cover h1,
+    .invitation h1 {
+        font-size: 23px;
+    }
+}
