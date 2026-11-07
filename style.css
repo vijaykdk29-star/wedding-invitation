@@ -173,7 +173,7 @@ h3 {
     margin-bottom: 10px;
 }
 
-/* Couple Names - Desktop */
+/* Couple Names */
 
 .cover h1,
 .invitation > h1 {
@@ -665,7 +665,99 @@ hr {
     margin: 0;
 }
 
-/* 13. Thank You Section */
+/* 13. Contact Us Section */
+
+.contact-section {
+    width: 100%;
+    max-width: 500px;
+    margin: 35px auto;
+    padding: 30px 20px;
+
+    background: linear-gradient(
+        145deg,
+        #fff0cc,
+        #f1dfbd,
+        #fff5e5
+    );
+
+    border: 5px double #bd9138;
+    border-radius: 25px;
+
+    box-shadow:
+        0 0 15px rgba(201, 155, 66, 0.4),
+        0 8px 25px rgba(92, 16, 37, 0.2),
+        inset 0 0 15px rgba(201, 155, 66, 0.2);
+}
+
+.contact-section h2 {
+    color: #8b1833;
+    font-size: 26px;
+    margin-bottom: 25px;
+    text-shadow: 0 0 8px rgba(201, 155, 66, 0.5);
+}
+
+.contact-card {
+    padding: 25px 15px;
+    margin: 18px auto;
+
+    background: linear-gradient(
+        135deg,
+        #f3dfb5,
+        #fff8e8,
+        #f1dfb9
+    );
+
+    border: 3px double #c99b42;
+    border-radius: 20px;
+
+    box-shadow: 0 5px 15px rgba(92, 16, 37, 0.15);
+}
+
+.contact-card h3 {
+    color: #8b1833;
+    font-size: 21px;
+    margin-bottom: 15px;
+}
+
+.contact-card p {
+    color: #70451d;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.call-btn {
+    display: inline-block;
+    padding: 12px 28px;
+    margin-top: 12px;
+
+    background: linear-gradient(
+        135deg,
+        #8b1833,
+        #5c1025
+    );
+
+    color: #fff5e5;
+    text-decoration: none;
+
+    border: 3px double #e5bd65;
+    border-radius: 30px;
+
+    font-weight: bold;
+    transition: 0.3s ease;
+}
+
+.call-btn:hover {
+    background: linear-gradient(
+        135deg,
+        #d4a94f,
+        #bd9138
+    );
+
+    color: #5c1025;
+    transform: scale(1.05);
+}
+
+/* 14. Thank You Section */
 
 .thankyou-section {
     width: 100%;
@@ -716,7 +808,7 @@ hr {
     margin: 20px 0;
 }
 
-/* 14. WhatsApp Share Section */
+/* 15. WhatsApp Share Section */
 
 .share-section {
     width: 100%;
@@ -767,7 +859,7 @@ hr {
     transform: scale(1.06);
 }
 
-/* 15. Back To Top Button */
+/* 16. Back To Top Button */
 
 #topBtn {
     display: block;
@@ -798,7 +890,7 @@ hr {
     transform: translateY(-4px);
 }
 
-/* 16. Falling Sparkles - ✨ Only */
+/* 17. Falling Sparkles - ✨ Only */
 
 .flower-rain {
     position: fixed;
@@ -839,7 +931,7 @@ hr {
     }
 }
 
-/* 17. Royal Golden Shine */
+/* 18. Royal Golden Shine */
 
 @keyframes royalShine {
     0% {
@@ -877,7 +969,7 @@ hr {
     }
 }
 
-/* 18. Mobile Responsive Design */
+/* 19. Mobile Responsive Design */
 
 @media screen and (max-width: 600px) {
 
@@ -1011,9 +1103,27 @@ hr {
     #topBtn {
         font-size: 14px;
     }
+
+    /* Contact Mobile Design */
+
+    .contact-section {
+        padding: 25px 12px;
+    }
+
+    .contact-card {
+        padding: 20px 10px;
+    }
+
+    .contact-section h2 {
+        font-size: 22px;
+    }
+
+    .contact-card h3 {
+        font-size: 19px;
+    }
 }
 
-/* 19. Extra Small Mobile Screens */
+/* 20. Extra Small Mobile Screens */
 
 @media screen and (max-width: 360px) {
 
@@ -1024,7 +1134,7 @@ hr {
     }
 }
 
-/* 20. Reduce Motion for Accessibility */
+/* 21. Reduce Motion for Accessibility */
 
 @media (prefers-reduced-motion: reduce) {
     *,
